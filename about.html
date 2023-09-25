@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <title>About</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(18, 18, 62);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 46px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .leftSection {
+            width: 50%;
+        }
+
+        h1 {
+            font-size: 45px;
+            position: relative;
+            left: 158px;
+        }
+
+        .education {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 9px 0;
+        }
+
+        #education {
+            font-size: 28px;
+        }
+
+        .leftSection ul li {
+            list-style: none;
+            font-size: 15px;
+            color: gray;
+        }
+
+        main hr {
+            border: 0;
+            background-color: white;
+            height: 1.3px;
+            margin: 40px 84px;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 68vh;
+
+
+        }
+
+        .secondSection h1 {
+            font-size: 45px;
+            position: relative;
+            left: 100px;
+            top: 60px;
+
+        }
+
+        .certifications {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 60px 0;
+            position: relative;
+            top: 60px;
+        }
+
+        #Certif {
+            font-size: 28px;
+        }
+
+        .secondSection ul li {
+            list-style: none;
+            font-size: 15px;
+            color: gray;
+            position: relative;
+            left: 25px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        footer {
+            background-color: rgb(26 1 26);
+            ;
+            height: 93px;
+        }
+
+        .footer {
+            margin: 73px 9px 20px;
+            justify-content: space-evenly;
+        }
+
+        .footer-first {
+            font-size: 19px;
+            color: #f6e2e2;
+        }
+
+        .footer-second {
+            font-size: 12px;
+        }
+
+        .footer-second a {
+            text-decoration: none;
+            color: #956d6d;
+        }
+
+        .det {
+            color: rgb(235, 210, 210);
+        }
+    </style>
+</head>
+
+<body>
+    <header> <!--This Section acts as the navigation tool to see home, about, projects or contact info. -->
+        <nav>
+            <div class="left">Parkhi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="res.html">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="#fa">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main><!--Gives info about my education and certifications-->
+        <section class="firstSection">
+            <div class="leftSection">
+                <h1>Education</h1>
+                <div class="education">
+                    <div>
+                        <span id="education">School</span>
+                        <ul>
+                            <li>GISSS(Solan, H.P.)</li>
+                            <li>Year Of Passing:</li>
+                            <li>2020</li>
+                            <li>Grade:97%</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <span id="education">College</span>
+                        <ul>
+                            <li>Chandigarh University (Mohali, Punjab)</li>
+                            <li>Course:BE-CSE</li>
+                            <li>Devops</li>
+                            <li>2021-2025</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="rightSection">
+                <img src="book.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+
+            <h1>Certifications</h1>
+
+            <div class="certifications">
+                <div>
+                    <img class="image-top" src="nptel.png" alt="">
+                    <span id="Certif">NPTEL Certificate</span>
+                    <ul>
+                        <li>Intro to C++</li>
+                        <li>Intro to Java</li>
+                        <li>(IIT-B)</li>
+
+                    </ul>
+                </div>
+                <div>
+                    <img class="image-top" src="palo.png" alt="">
+                    <span id="Certif">Palo-Alto Cloud Services</span>
+                    <ul>
+                        <li>Basic Cloud</li>
+                        <li>Fundamentals</li>
+
+                    </ul>
+                </div>
+                <div>
+                    <img class="image-top" src="webdev.jpg" alt="">
+                    <span id="Certif">Web-Dev Certification</span>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>(IBM)</li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer><!--Contact info-->
+        <div class="footer" id="fa">
+            <div class="footer-first"> Parkhi's Developer portfolio</div>
+            <div class="footer-second">
+                <ul>
+                    <li><span class="det">email:</span><a href="mailto:parkhirana02@gmail.com">
+                            parkhirana02@gmail.com</a></li>
+                    <li><span class="det">Linkedin:</span><a href="https://www.linkedin.com/in/parkhi-rana-934919230">
+                            Parkhi Rana</a></li>
+                    <li><span class="det">Contact:</span><a href="https://www.linkedin.com/in/parkhi-rana-934919230">
+                            8219951722</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

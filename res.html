@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parkhi - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <STYLE>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(18, 18, 62);
+            ;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 46px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.2rem;
+            color: rgb(112, 112, 226);
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(74, 21, 123);
+            height: 1.3px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+            margin: 30px 0;
+            font-size: 2.5rem;
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(200, 169, 229);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(200, 169, 229);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 68vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 60vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            background-color: white;
+            width: 1px;
+            height: 93px;
+            margin: 0 100px;
+        }
+
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 100px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 100px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(26 1 26);
+            ;
+            height: 93px;
+        }
+
+        .footer {
+            margin: 73px 9px 20px;
+            justify-content: space-evenly;
+        }
+
+        .footer-first {
+            font-size: 19px;
+            color: #f6e2e2;
+        }
+
+        .footer-second {
+            font-size: 12px;
+        }
+
+        .footer-second a {
+            text-decoration: none;
+            color: #956d6d;
+        }
+
+        .det {
+            color: rgb(235, 210, 210);
+        }
+    </STYLE>
+</head>
+
+<body>
+    <header><!--This Section acts as the navigation tool to see home, about, projects or contact info. -->
+        <nav>
+            <div class="left">Parkhi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="#fr">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main><!--Gives the basic info about my skills-->
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Parkhi</span>
+                <div>and I am a passionate </div>
+                <span id="element"></span>
+
+            </div>
+            <div class="rightSection">
+                <img src="p1.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have Done so far</span>
+            <h1>Skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="dev.jpg" alt="">
+                    <div class="vertical-title">
+                        Languages
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>C/C++</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="dev.jpg" alt="">
+                    <div class="vertical-title">
+                        Data Structures & Algorithms
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>C/C++</li>
+                            <li>Java</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="dev.jpg" alt="">
+                    <div class="vertical-title">
+                        Web Development
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React JS</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="dev.jpg" alt="">
+                    <div class="vertical-title">
+                        Database Connectivity
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>MongoDB</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+
+                </div>
+        </section>
+    </main>
+    <footer><!--Contact info-->
+        <div class="footer" id="fr">
+            <div class="footer-first"> Parkhi's Developer portfolio</div>
+            <div class="footer-second">
+                <ul>
+                    <li><span class="det">email:</span><a href="mailto:parkhirana02@gmail.com">
+                            parkhirana02@gmail.com</a></li>
+                    <li><span class="det">Linkedin:</span><a href="https://www.linkedin.com/in/parkhi-rana-934919230">
+                            Parkhi Rana</a></li>
+                    <li><span class="det">Contact:</span><a href="https://www.linkedin.com/in/parkhi-rana-934919230">
+                            8219951722</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer..', 'Coding Enthusiast.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
